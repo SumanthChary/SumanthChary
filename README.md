@@ -170,7 +170,7 @@ The 15 private repos aren't mysterious — they're just products that aren't rea
 
 <div align="center">
 
-**[postpro-ai.lovable.app](https://postpro-ai.lovable.app)** · **[legaldeepai.vercel.app](https://legaldeepai.vercel.app)** · **[github.com/SumanthChary](https://github.com/SumanthChary)**
+**[postproai.app](https://postproai.app)** · **[legaldeepai.app](https://legaldeepai.app)** · **[github.com/SumanthChary](https://github.com/SumanthChary)**
 
 <br/>
 
