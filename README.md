@@ -16,7 +16,7 @@
 
 ```ts
 const sumanth = {
-  age:       18,
+  age:       19,
   location:  "Hyderabad, India 🌏",
   education: "B.Tech CSE · Class of 2027",
   currently: ["shipping FlipScan AI", "iterating on AirWrite", "passing exams somehow"],
@@ -44,7 +44,7 @@ AI-powered LinkedIn post optimization. Full SaaS — auth, editor, AI rewrite en
 </td>
 <td width="50%" valign="top">
 
-### ⚖️ [LegalDeep AI](https://legaldeepai.vercel.app)
+### ⚖️ [LegalDeep AI](https://legaldeepai.app)
 Legal document summarization for people who don't have lawyers. Built the prototype (`legaldocscanai`) in Sept 2025 to validate the idea, then rebuilt it from scratch as `legaldeepai`. Shipped to Vercel, last pushed April 2026.
 
 `TypeScript` `AI` `Legal-Tech` `Vercel`
