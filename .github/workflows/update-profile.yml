@@ -37,13 +37,23 @@ jobs:
           node scripts/build.mjs
 
       - name: Commit changed panels
+        id: commit
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets
+          git add assets README.md
           if git diff --cached --quiet; then
             echo "No changes."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore: refresh profile panels"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Purge CDN cache (best effort)
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          for n in hero shiplog activity stack; do
+            curl -fsS "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/assets/$n.svg" > /dev/null || echo "purge of $n failed (non-fatal)"
+          done

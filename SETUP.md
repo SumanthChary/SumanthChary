@@ -40,6 +40,7 @@ If the secret is missing the workflow fails loudly instead of silently publishin
 
 - **Links:** `galleyresume.com`, `postproai.app`, `sumanthdev.me`, LinkedIn, X and Peerlist were taken from your repo READMEs and old profile. Click each once.
 - **Agent split:** the hero, ship log and activity panel show "by hand" vs "agent-assisted" commits (Lovable, v0, Claude). To hide it everywhere, set `"showAgentSplit": false` in `data/config.json` and delete the sentence about "Agents" in the README's *Ship log* section.
+- **Image URLs:** the README loads the panels from `cdn.jsdelivr.net/gh/<you>/<repo>@main/assets/...` instead of a relative path. GitHub's image proxy fetches those server-side, so they still show for visitors (and you) whose network can't reach `raw.githubusercontent.com`. If you rename the repo or branch, update those four URLs. `build.mjs` keeps the `?v=` stamps current by itself.
 - **Private names:** add or remove repos in `privateNamesAllowed`. Anything not listed there is redacted in the public SVGs.
 
 ## Preview locally

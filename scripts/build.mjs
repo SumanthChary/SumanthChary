@@ -6,6 +6,7 @@
 // PRIVACY: private repo names are NEVER written to the SVGs unless listed in data/config.json -> privateNamesAllowed.
 
 import fs from 'node:fs';
+import crypto from 'node:crypto';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -391,4 +392,16 @@ write('hero.svg', hero(data, s));
 write('shiplog.svg', shiplog(data, s));
 write('activity.svg', activity(data, s));
 write('stack.svg', stack(data, s));
+// README images point at a CDN (GitHub's image proxy fetches them server-side, so they load even on networks that
+// cannot reach raw.githubusercontent.com). Stamp each URL with a content hash so the proxy refetches when a panel changes.
+const readmePath = path.join(ROOT, 'README.md');
+if (fs.existsSync(readmePath)) {
+  const before = fs.readFileSync(readmePath, 'utf8');
+  let md = before;
+  for (const n of ['hero', 'shiplog', 'activity', 'stack']) {
+    const h = crypto.createHash('sha1').update(fs.readFileSync(path.join(OUT, `${n}.svg`))).digest('hex').slice(0, 8);
+    md = md.replace(new RegExp(`(/assets/${n}\\.svg)(\\?v=[0-9a-f]+)?`, 'g'), `$1?v=${h}`);
+  }
+  if (md !== before) { fs.writeFileSync(readmePath, md); console.log('stamped README image versions'); }
+}
 console.log(`source=${data.source} asOf=${data.asOf} repos=${s.nRepos} mine365=${s.mine} (prv ${s.prv} / pub ${s.pub}) agent365=${s.agent} active=${s.activeDays} streak=${s.longest}/${s.current}`);

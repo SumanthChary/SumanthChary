@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Terminal card: Sumanth Chary. Designer-brained developer who ships AI products, then markets them himself. Hyderabad, India." width="100%">
+<img src="https://cdn.jsdelivr.net/gh/SumanthChary/SumanthChary@main/assets/hero.svg?v=6306a10a" alt="Terminal card: Sumanth Chary. Designer-brained developer who ships AI products, then markets them himself. Hyderabad, India." width="100%">
 
 <br>
 
@@ -72,7 +72,7 @@ A free, open-source **Claude skill** that turns career notes into an honest, ATS
 Private repos are real. GitHub just won't show them, so this panel is generated from my own commit history with the private names redacted. **"Agents"** are commits made by Lovable, v0 or Claude on my behalf.
 
 <div align="center">
-<img src="assets/shiplog.svg" alt="Table of the most recently active repositories with commit counts by me versus coding agents. Private repository names are redacted." width="100%">
+<img src="https://cdn.jsdelivr.net/gh/SumanthChary/SumanthChary@main/assets/shiplog.svg?v=a4371f87" alt="Table of the most recently active repositories with commit counts by me versus coding agents. Private repository names are redacted." width="100%">
 </div>
 
 <br>
@@ -80,7 +80,7 @@ Private repos are real. GitHub just won't show them, so this panel is generated 
 ## Activity
 
 <div align="center">
-<img src="assets/activity.svg" alt="Contribution heatmap for the last 365 days with monthly and weekday commit rhythm. Private repositories are included." width="100%">
+<img src="https://cdn.jsdelivr.net/gh/SumanthChary/SumanthChary@main/assets/activity.svg?v=7e180cf4" alt="Contribution heatmap for the last 365 days with monthly and weekday commit rhythm. Private repositories are included." width="100%">
 </div>
 
 <br>
@@ -88,7 +88,7 @@ Private repos are real. GitHub just won't show them, so this panel is generated 
 ## Stack
 
 <div align="center">
-<img src="assets/stack.svg" alt="Language mix across all repositories, mostly TypeScript, and the tools used: React, Vite, TanStack Start, Next.js, Tailwind, Supabase, Expo and more." width="100%">
+<img src="https://cdn.jsdelivr.net/gh/SumanthChary/SumanthChary@main/assets/stack.svg?v=5b55f68f" alt="Language mix across all repositories, mostly TypeScript, and the tools used: React, Vite, TanStack Start, Next.js, Tailwind, Supabase, Expo and more." width="100%">
 </div>
 
 <br>
