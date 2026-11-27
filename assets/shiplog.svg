@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="508" viewBox="0 0 900 508" role="img" aria-labelledby="t d">
+<title id="t">git shortlog --all</title><desc id="d">Activity per repository, private ones included with names redacted. 27 repositories: 15 public and 12 private.</desc>
+<defs>
+<radialGradient id="glow" cx="10%" cy="0%" r="85%"><stop offset="0" stop-color="#FFA033" stop-opacity=".13"/><stop offset="1" stop-color="#FFA033" stop-opacity="0"/></radialGradient>
+<pattern id="sl" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".1"/></pattern>
+<clipPath id="in"><rect x="1" y="38" width="898" height="469"/></clipPath>
+</defs>
+<style>
+text{font-family:ui-monospace,'SF Mono','JetBrains Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace;font-size:14px;fill:#EBDFCE;white-space:pre}
+.dim{fill:#9A8872}.fnt{fill:#5E4F40}.amb{fill:#FFA033}.emb{fill:#FF6A2B}.sg{fill:#A9C98A}.sd{fill:#E9C98A}
+.b{font-weight:700}.s11{font-size:12px}.s12{font-size:13px}.s13{font-size:14px}.s16{font-size:16px}
+.r{animation:rise .6s cubic-bezier(.2,.7,.2,1) backwards;animation-delay:var(--t,0s)}
+@keyframes rise{from{opacity:0;transform:translateY(7px)}}
+.cov{transform:translateX(var(--w));animation:slide var(--d,1s) steps(var(--n,20),end) backwards;animation-delay:var(--t,0s)}
+@keyframes slide{from{transform:translateX(0)}}
+.c{transform-box:fill-box;transform-origin:center;animation:pop .45s ease-out backwards;animation-delay:var(--t,0s)}
+@keyframes pop{from{opacity:0;transform:scale(.3)}}
+.blink{animation:blink 1.1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+.pulse{animation:pulse 2.2s ease-in-out infinite}@keyframes pulse{50%{opacity:.3}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow .8s cubic-bezier(.2,.7,.2,1) backwards;animation-delay:var(--t,0s)}
+@keyframes grow{from{transform:scaleX(0)}}
+.up{transform-box:fill-box;transform-origin:center bottom;animation:up .7s cubic-bezier(.2,.7,.2,1) backwards;animation-delay:var(--t,0s)}
+@keyframes up{from{transform:scaleY(0)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="899" height="507" rx="14" fill="#15100D" stroke="#3A2D22"/>
+<path d="M.5 38V14.5a14 14 0 0 1 14-14H885.5a14 14 0 0 1 14 14V38Z" fill="#211A14"/>
+<line x1=".5" y1="38" x2="899.5" y2="38" stroke="#3A2D22"/>
+<circle cx="24" cy="19" r="5.5" fill="#FF6A2B"/><circle cx="42" cy="19" r="5.5" fill="#FFA033"/><circle cx="60" cy="19" r="5.5" fill="#A9C98A" opacity=".85"/>
+<text x="450" y="23.5" text-anchor="middle" class="dim s12">git shortlog --all</text>
+<g clip-path="url(#in)"><text x="36" y="72"><tspan class="sg">~</tspan><tspan class="dim"> </tspan><tspan class="amb b">$</tspan></text>
+<text x="80" y="72">git shortlog --all</text>
+<rect class="cov" x="78" y="57" width="159" height="21" fill="#15100D" style="--w:159px;--n:18;--d:0.54s;--t:0.1s"/>
+<text class="fnt s12 r" x="247" y="72" style="--t:0.74s"># private repos included, names redacted</text><g class="dim s11"><text x="58" y="104">repo</text><text x="318" y="104">visibility</text><text x="480" y="104" text-anchor="end">mine</text><text x="556" y="104" text-anchor="end">agents</text><text x="590" y="104">hand vs agent</text><text x="864" y="104" text-anchor="end">last push</text></g>
+<line x1="36" y1="114" x2="864" y2="114" stroke="#3A2D22"/><g class="r" style="--t:0.50s"><circle class="pulse" cx="42" cy="138" r="4" fill="#FFA033"/><text x="58" y="142">Galley</text><rect x="318" y="130" width="62" height="17" rx="8.5" fill="none" stroke="#FF6A2B" opacity=".8"/><text class="emb s11" x="349" y="142" text-anchor="middle">private</text>
+<text class="amb b" x="480" y="142" text-anchor="end">32</text><text class="dim" x="556" y="142" text-anchor="end">95</text>
+<rect x="590" y="133" width="150" height="6" rx="3" fill="#E9C98A" opacity="0.42"/><rect class="grow" x="590" y="133" width="37.8" height="6" rx="3" fill="#FFA033" style="--t:0.70s"/>
+<text class="dim s11" x="750" y="140">25%</text>
+<text class="dim s12" x="864" y="142" text-anchor="end">today</text></g><g class="r" style="--t:0.59s"><circle class="pulse" cx="42" cy="166" r="4" fill="#FFA033"/><text x="58" y="170">sumanthdev.me</text><text class="dim s12" x="318" y="170">public</text>
+<text class="amb b" x="480" y="170" text-anchor="end">0</text><text class="dim" x="556" y="170" text-anchor="end">186</text>
+<rect x="590" y="161" width="150" height="6" rx="3" fill="#E9C98A" opacity="0.42"/><rect class="grow" x="590" y="161" width="0.0" height="6" rx="3" fill="#FFA033" style="--t:0.79s"/>
+<text class="dim s11" x="750" y="168">0%</text>
+<text class="dim s12" x="864" y="170" text-anchor="end">3d ago</text></g><g class="r" style="--t:0.68s"><circle cx="42" cy="194" r="4" fill="#FFA033"/><text x="58" y="198">typeset-resume</text><text class="dim s12" x="318" y="198">public</text>
+<text class="amb b" x="480" y="198" text-anchor="end">44</text><text class="dim" x="556" y="198" text-anchor="end">0</text>
+<rect x="590" y="189" width="150" height="6" rx="3" fill="#E9C98A" opacity="0.12"/><rect class="grow" x="590" y="189" width="150.0" height="6" rx="3" fill="#FFA033" style="--t:0.88s"/>
+<text class="dim s11" x="750" y="196">100%</text>
+<text class="dim s12" x="864" y="198" text-anchor="end">10d ago</text></g><g class="r" style="--t:0.77s"><circle cx="42" cy="222" r="4" fill="#E9C98A"/><text x="58" y="226">PostPro AI</text><rect x="318" y="214" width="62" height="17" rx="8.5" fill="none" stroke="#FF6A2B" opacity=".8"/><text class="emb s11" x="349" y="226" text-anchor="middle">private</text>
+<text class="amb b" x="480" y="226" text-anchor="end">163</text><text class="dim" x="556" y="226" text-anchor="end">1,611</text>
+<rect x="590" y="217" width="150" height="6" rx="3" fill="#E9C98A" opacity="0.42"/><rect class="grow" x="590" y="217" width="13.8" height="6" rx="3" fill="#FFA033" style="--t:0.97s"/>
+<text class="dim s11" x="750" y="224">9%</text>
+<text class="dim s12" x="864" y="226" text-anchor="end">3w ago</text></g><g class="r" style="--t:0.86s"><circle cx="42" cy="250" r="4" fill="#E9C98A"/><text x="58" y="254">gemini-os</text><text class="dim s12" x="318" y="254">public</text>
+<text class="amb b" x="480" y="254" text-anchor="end">1</text><text class="dim" x="556" y="254" text-anchor="end">0</text>
+<rect x="590" y="245" width="150" height="6" rx="3" fill="#E9C98A" opacity="0.12"/><rect class="grow" x="590" y="245" width="150.0" height="6" rx="3" fill="#FFA033" style="--t:1.06s"/>
+<text class="dim s11" x="750" y="252">100%</text>
+<text class="dim s12" x="864" y="254" text-anchor="end">8w ago</text></g><g class="r" style="--t:0.95s"><circle cx="42" cy="278" r="4" fill="#E9C98A"/><text x="58" y="282">FlowMind</text><text class="dim s12" x="318" y="282">public</text>
+<text class="amb b" x="480" y="282" text-anchor="end">67</text><text class="dim" x="556" y="282" text-anchor="end">0</text>
+<rect x="590" y="273" width="150" height="6" rx="3" fill="#E9C98A" opacity="0.12"/><rect class="grow" x="590" y="273" width="150.0" height="6" rx="3" fill="#FFA033" style="--t:1.15s"/>
+<text class="dim s11" x="750" y="280">100%</text>
+<text class="dim s12" x="864" y="282" text-anchor="end">2mo ago</text></g><g class="r" style="--t:1.04s"><circle cx="42" cy="306" r="4" fill="#E9C98A"/><rect x="58" y="299" width="129" height="14" rx="3" fill="#5E4F40" opacity=".85"/><rect x="318" y="298" width="62" height="17" rx="8.5" fill="none" stroke="#FF6A2B" opacity=".8"/><text class="emb s11" x="349" y="310" text-anchor="middle">private</text>
+<text class="amb b" x="480" y="310" text-anchor="end">25</text><text class="dim" x="556" y="310" text-anchor="end">40</text>
+<rect x="590" y="301" width="150" height="6" rx="3" fill="#E9C98A" opacity="0.42"/><rect class="grow" x="590" y="301" width="57.7" height="6" rx="3" fill="#FFA033" style="--t:1.24s"/>
+<text class="dim s11" x="750" y="308">38%</text>
+<text class="dim s12" x="864" y="310" text-anchor="end">2mo ago</text></g><g class="r" style="--t:1.13s"><circle cx="42" cy="334" r="4" fill="#E9C98A"/><text x="58" y="338">particle</text><text class="dim s12" x="318" y="338">public</text>
+<text class="amb b" x="480" y="338" text-anchor="end">12</text><text class="dim" x="556" y="338" text-anchor="end">0</text>
+<rect x="590" y="329" width="150" height="6" rx="3" fill="#E9C98A" opacity="0.12"/><rect class="grow" x="590" y="329" width="150.0" height="6" rx="3" fill="#FFA033" style="--t:1.33s"/>
+<text class="dim s11" x="750" y="336">100%</text>
+<text class="dim s12" x="864" y="338" text-anchor="end">2mo ago</text></g><g class="r" style="--t:1.22s"><circle cx="42" cy="362" r="4" fill="#E9C98A"/><rect x="58" y="355" width="103" height="14" rx="3" fill="#5E4F40" opacity=".85"/><rect x="318" y="354" width="62" height="17" rx="8.5" fill="none" stroke="#FF6A2B" opacity=".8"/><text class="emb s11" x="349" y="366" text-anchor="middle">private</text>
+<text class="amb b" x="480" y="366" text-anchor="end">10</text><text class="dim" x="556" y="366" text-anchor="end">0</text>
+<rect x="590" y="357" width="150" height="6" rx="3" fill="#E9C98A" opacity="0.12"/><rect class="grow" x="590" y="357" width="150.0" height="6" rx="3" fill="#FFA033" style="--t:1.42s"/>
+<text class="dim s11" x="750" y="364">100%</text>
+<text class="dim s12" x="864" y="366" text-anchor="end">2mo ago</text></g><g class="r" style="--t:1.31s"><circle cx="42" cy="390" r="4" fill="#E9C98A"/><text x="58" y="394">Triage Beacon</text><text class="dim s12" x="318" y="394">public</text>
+<text class="amb b" x="480" y="394" text-anchor="end">9</text><text class="dim" x="556" y="394" text-anchor="end">14</text>
+<rect x="590" y="385" width="150" height="6" rx="3" fill="#E9C98A" opacity="0.42"/><rect class="grow" x="590" y="385" width="58.7" height="6" rx="3" fill="#FFA033" style="--t:1.51s"/>
+<text class="dim s11" x="750" y="392">39%</text>
+<text class="dim s12" x="864" y="394" text-anchor="end">2mo ago</text></g><g class="r" style="--t:1.40s"><circle cx="42" cy="418" r="4" fill="#E9C98A"/><text x="58" y="422">Handy</text><text class="dim s12" x="318" y="422">public</text>
+<text class="amb b" x="480" y="422" text-anchor="end">7</text><text class="dim" x="556" y="422" text-anchor="end">0</text>
+<rect x="590" y="413" width="150" height="6" rx="3" fill="#E9C98A" opacity="0.12"/><rect class="grow" x="590" y="413" width="150.0" height="6" rx="3" fill="#FFA033" style="--t:1.60s"/>
+<text class="dim s11" x="750" y="420">100%</text>
+<text class="dim s12" x="864" y="422" text-anchor="end">2mo ago</text></g><g class="r" style="--t:1.49s"><circle cx="42" cy="446" r="4" fill="#E9C98A"/><text x="58" y="450">Sky Story Maker</text><text class="dim s12" x="318" y="450">public</text>
+<text class="amb b" x="480" y="450" text-anchor="end">2</text><text class="dim" x="556" y="450" text-anchor="end">28</text>
+<rect x="590" y="441" width="150" height="6" rx="3" fill="#E9C98A" opacity="0.42"/><rect class="grow" x="590" y="441" width="10.0" height="6" rx="3" fill="#FFA033" style="--t:1.69s"/>
+<text class="dim s11" x="750" y="448">7%</text>
+<text class="dim s12" x="864" y="450" text-anchor="end">2mo ago</text></g><text class="fnt s12 r" x="58" y="480" style="--t:1.78s">+ 14 more repos  ·  611 commits by me across all 27</text></g>
+<rect x=".5" y=".5" width="899" height="507" rx="14" fill="url(#glow)" pointer-events="none"/>
+<rect x=".5" y=".5" width="899" height="507" rx="14" fill="url(#sl)" pointer-events="none"/>
+</svg>

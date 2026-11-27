@@ -1,0 +1,45 @@
+{
+  "login": "SumanthChary",
+  "tzOffsetMinutes": 330,
+
+  "privateNamesAllowed": {
+    "galley-resume": "Galley",
+    "postpro-ai": "PostPro AI",
+    "flipscanai": "FlipScan AI",
+    "api-real-test": "ApiRealTest",
+    "legaldocscanai": "LegalDeep AI (prototype)"
+  },
+
+  "publicNames": {
+    "typeset-resume": "typeset-resume",
+    "sumanthdev": "sumanthdev.me",
+    "flowmind-original": "FlowMind",
+    "portify-original": "Portify",
+    "pipelineai-openclaw": "PipelineAI x OpenClaw",
+    "triage-beacon": "Triage Beacon",
+    "sky-story-maker": "Sky Story Maker",
+    "aitradevision": "AI Trade Vision",
+    "airwrite": "AirWrite",
+    "handy": "Handy",
+    "particle": "particle",
+    "gemini-os": "gemini-os",
+    "neetcode-submissions": "neetcode-submissions",
+    "SumanthChary": "SumanthChary (this README)"
+  },
+
+  "hero": {
+    "tagline": "Designer-brained developer. I ship AI products, then market them myself.",
+    "rows": [
+      ["role", "indie developer  /  growth marketer  /  B.Tech CSE"],
+      ["home", "Hyderabad, India  (IST)"],
+      ["shipping", "Galley  /  PostPro AI  /  FlipScan AI"],
+      ["stack", "TypeScript  /  React  /  TanStack Start  /  Supabase  /  Expo  /  Gemini  /  Claude"]
+    ],
+    "showAgentSplit": true
+  },
+
+  "stackChips": [
+    "React", "Vite", "TanStack Start", "Next.js", "Tailwind", "Supabase", "Expo",
+    "Framer Motion", "Three.js", "Dodo Payments", "Gemini API", "Claude", "MediaPipe", "n8n"
+  ]
+}
