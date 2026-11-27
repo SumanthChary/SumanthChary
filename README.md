@@ -4,7 +4,7 @@
 
 <br>
 
-**[Galley](https://galleyresume.com)** &nbsp;·&nbsp; **[PostPro AI](https://www.postproai.app)** &nbsp;·&nbsp; **[Portfolio](https://sumanthdev.me)** &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/sumanthchary) &nbsp;·&nbsp; [X](https://x.com/SumanthChary07) &nbsp;·&nbsp; [Peerlist](https://peerlist.io/sumanthdev) &nbsp;·&nbsp; [hello@sumanthdev.me](mailto:hello@sumanthdev.me)
+**[Galley](https://galleyresume.com)** &nbsp;·&nbsp; **[PostPro AI](https://www.postproai.app)** &nbsp;·&nbsp; **[Portfolio](https://sumanthdev.me)** &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/sumanthchary) &nbsp;·&nbsp; [X](https://x.com/SumanthChary07) &nbsp;·&nbsp; [Peerlist](https://peerlist.io/sumanthdev) &nbsp;·&nbsp; [sumanthcharyy@gmail.com](mailto:sumanthcharyy@gmail.com)
 
 </div>
 
